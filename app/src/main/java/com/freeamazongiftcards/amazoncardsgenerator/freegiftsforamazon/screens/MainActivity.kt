@@ -26,7 +26,7 @@ class MainActivity : BaseActivity() {
         bindCoinView()
         bind()
 
-        toolbarText.text = "Gift Cards"
+        toolbarText.text = "Coupons"
 
         initScroll()
 
@@ -78,7 +78,7 @@ class MainActivity : BaseActivity() {
                 finish()
             }
             R.id.share -> {
-                var mess = "I'am using this app to get free Xbox Gift Cards: \"https://play.google.com/store/apps/details?id=" +
+                var mess = "I'am using this app to get free Amazon Coupons: \"https://play.google.com/store/apps/details?id=" +
                         packageName + "\"" + " Here is my invite code: " +
                         preferencesManager.get(PreferencesManager.INVITE_CODE, "") +
                         " Install an app and enter this code to get 200 Coins!"

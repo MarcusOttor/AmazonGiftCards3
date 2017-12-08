@@ -28,7 +28,7 @@
 
     <TextView
         fontPath="fonts/ProximaNovaSemibold.otf"
-        android:text="GIFT CARDS"
+        android:text="COUPONS"
         android:textSize="30sp"
         android:textColor="@android:color/white"
         android:gravity="center"

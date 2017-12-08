@@ -66,7 +66,7 @@ class RedeemActivity : BaseActivity(){
                             updateCoins()
                             dismisser.dismiss()
                             dialogsManager.showAlertDialog(supportFragmentManager,
-                                    "You will receive your Gift Card in 3 - 7 days!", {
+                                    "You will receive your Coupon in 3 - 7 days!", {
                                 onBackPressed()
                             })
                         }
